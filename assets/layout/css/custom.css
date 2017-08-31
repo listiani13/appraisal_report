@@ -1,0 +1,317 @@
+/* here you can put your own css to customize and override the theme */
+
+/*employee self service title*/
+
+.zpage-title{
+	font-weight:bold;
+	font-size:1.5em;
+	color:#FFFFFF;
+}
+
+/*content page title*/
+.page-title{
+	font-size:1.7em !important;
+}
+
+/*form section*/
+.zform-section{
+	font-size:1.5em !important;
+	margin-bottom:10px !important;
+	margin-top:10px !important;
+}
+
+/*form control static*/
+.zform-control-static{
+	font-weight:bold;
+	white-space: normal !important;
+}
+
+/*form group*/
+.zform-group{
+	margin-bottom:0px !important;
+}
+
+/*sidebar arrow*/
+.zarrow-right{
+	content: "\f105" !important;
+}
+
+/*user name*/
+.zusername{
+	color:#FFFFFF !important;
+}
+
+/*calendar today color*/
+.fc-today{
+	background-color: #ccf8c0 !important;
+}
+
+/*calendar popover*/
+.fc-more-popover .fc-event-container{
+	padding-top:25px !important;
+}
+
+/*calendar mini header information*/
+.zcalendar-miniheader{
+	font-style:italic; 
+	color:#FFFFFF; 
+	font-size: 0.9em;
+}
+
+/*calendar refresh loader*/
+.zcalendar-pageloader{
+	font-weight:bold;
+	text-align:center;
+	width:100%;
+	color:#FFFFFF;
+}
+/*calendar refresh loader*/
+.zpendingapproval-pageloader{
+	font-weight:bold;
+	text-align:center;
+	width:100%;
+	color:#000000;
+}
+
+/*calendar plant options*/
+.zcalendar-plantoptions{
+	color:#FFFFFF;
+	font-size:0.9em;
+	border:1px solid #FFFFFF;
+	padding:10px;
+	width:100%;
+}
+
+/*datepicker*/
+.datepicker table td,
+.datepicker table th{
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+/*timepicker*/
+.zform-control{
+	width:100px !important;
+}
+
+.zform-table tr td{
+	padding:20px;
+	padding-top:5px !important;
+}
+
+.ztd-section-title{
+	vertical-align:top;	
+}
+
+.zrow{
+	padding-bottom:10px !important;
+}
+
+.zrow2{
+	padding-left:15px !important;
+}
+
+.portlet.box > .zportlet-title > .caption{
+	padding:5px !important;
+	/*font-size:1em !important;*/
+}
+
+.portlet.box > .zportlet-title{
+	padding:0px !important;
+	min-height:30px !important;
+}
+
+.portlet.box > .zportlet-body{
+	padding:0px !important;
+}
+
+.ztable-scrollable{
+	margin-top:0px !important;
+}
+
+.ztable-scrollable thead tr th{
+	text-align:center !important;
+}
+
+.ztimepicker{
+	text-align:center !important;
+}
+
+.ztd_center{
+	text-align:center !important;
+}
+
+.ztd_right{
+	text-align:right !important;
+}
+
+.zdivloader{
+	display:none;
+}
+
+.zpageloader{
+	display:none;
+}
+
+.zlinkbutton{
+	cursor: pointer;
+}
+
+.zform-actions{
+	background-color: transparent !important;
+}
+
+.bootbox-body{
+	width:100% !important;
+	margin:0 auto !important;
+}
+
+.modal-dialog{
+	width:85% !important;
+	margin:0 auto !important;
+}
+
+.ztabletdclick tbody tr td{
+	cursor:pointer !important;
+}
+
+.zrejectreason{
+	font-weight: bold !important;
+	color: #FF0000;
+}
+
+.zoff{
+	background-color: #FF0000 !important;
+	color: #FFFFFF !important;
+	font-weight:bold !important;
+}
+
+#ztblws03, #ztblws02{
+margin: 0 auto;
+width: 100%;
+clear: both;
+border-collapse: collapse;
+table-layout: fixed; // ***********add this 
+word-wrap:break-word; // ***********and this 
+
+}
+
+.img_loader_input{
+	width:15px;
+	height:15px;
+	vertical-align:middle;
+}
+
+.input_loader{
+	display:none;
+}
+
+.tbl_addscreen{
+	border-collapse:collapse;
+	border:1px solid #000000;
+	margin:0 auto;
+	width:100%;
+}
+
+.tbl_addscreen tr td,
+.tbl_addscreen tr th{
+	text-align:center;
+	padding-top:2px;
+	padding-right:2px;
+	padding-left:8px;
+	padding-right:8px;
+	border:1px solid #000000;
+}
+
+.img_load{
+	width:90px;
+	height:90px;
+}
+
+.zblue-dp{
+	background-color: #00adef !important;
+}
+
+.portlet.box > .portlet-title > .tools > a.trashcan{
+	background-image: url("../img/portlet-trashcan-icon-white.png");
+}
+
+.portlet > .portlet-title > .tools > a.trashcan{
+	width:14px;
+}
+
+.portlet > .portlet-title > .tools > .a{
+	display: inline-block;
+  	height: 16px;
+  	margin-left: 5px;
+}
+
+a.fc-day-grid-event{
+	background-color:#F2784B !important;
+}
+
+.znews-title{
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+.znews-author{
+	font-style:italic;
+	font-size:0.9em;
+}
+
+.znews-timestamp{
+	font-style:italic;
+	font-size:0.9em;
+}
+
+.feeds li .col2 > .znews-view{
+  padding: 4px 9px 5px 4px;
+  text-align: right;
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+.zbootbox-small{
+	width:30% !important;
+	margin: 0 auto !important;
+}
+
+.zbootbox-small > .modal-dialog{
+	width:100% !important;
+	margin:0 auto !important;
+}
+
+.zbootbox-medium{
+	width:60% !important;
+	margin:0 auto !important;
+}
+
+.zbootbox-medium > .modal-dialog{
+	width:100% !important;
+	margin:0 auto !important;
+}
+
+.pabootbox-medium{
+	width:60% !important;
+	margin:0 auto !important;
+}
+
+.pabootbox-medium > .modal-dialog{
+	width:100% !important;
+	margin:50px auto !important;
+}
+
+.pabootbox-smallmed{
+	width:50% !important;
+	margin:0 auto !important;
+}
+
+.pabootbox-smallmed > .modal-dialog{
+	width:100% !important;
+	margin:30px auto !important;
+}
+
+td,th{
+     vertical-align: middle;
+}
+

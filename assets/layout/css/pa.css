@@ -1,0 +1,75 @@
+body{
+
+	font-size: 12px;
+}
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.table tr > td.paop-A{
+
+ 	background-color: #228B22 !important;
+ 	color: white !important;
+}
+
+.table tr > td.paop-B{
+
+ 	background-color: #1E79D4 !important;
+ 	color: white !important;
+}
+
+.table tr > td.paop-BP{
+
+ 	background-color: #1A5FA3 !important;
+ 	color: white !important;
+}
+
+.table tr > td.paop-C{
+
+ 	background-color: #FFA500 !important;
+ 	color: white !important;
+}
+
+.table tr > td.paop-CP{
+
+ 	background-color: #FF8C00 !important;
+ 	color: white !important;
+}
+
+.table tr > td.paop-D{
+
+ 	background-color: #FF0000 !important;
+ 	color: white !important;
+}
+
+.table tr > td.choose-me{
+
+	border: 1px solid #FFF70A;
+	color: yellow !important;
+	font-weight: bold !important;
+ 	font-size: 40px !important ;
+}
+
+.table tr > td.pawb-1{
+
+ 	background-color: #FF9900 !important;
+ 	color: white !important;
+}
+
+.table tr > td.pawb-2{
+
+ 	background-color: #99CCFF !important;
+ 	color: white !important;
+}
+
+.table tr > td.pawb-3{
+
+ 	background-color: #66FF66 !important;
+ 	color: white !important;
+}
+
+.table tr > td.pawb-4{
+
+ 	background-color: #FFFF00 !important;
+ 	color: white !important;
+}

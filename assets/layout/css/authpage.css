@@ -1,0 +1,51 @@
+/*=============== style list ==========================
+00. body						; background color
+01. .td_status					: status validation, font italic
+02. table#tbl_validation th,td  : table validation, padding
+03. #tbl_validation				: margin, padding
+04. #th_val_title				: validation table title
+05. #p_msg						: color, font italic
+/*============== end of style list ====================*/
+
+body{
+	background-color: #000000;
+	font-family: "Open sans", sans-serif !important;
+}
+
+.td_status {
+	font-style: italic;
+	text-align: center;
+}
+
+table#tbl_validation th,td{
+	padding: 10px;
+	border: 1px solid black;
+}
+
+#tbl_validation{
+	margin:0 auto;
+	width:40%;
+	background-color:#ffffff;
+}
+
+#th_val_title{
+	background-color:#00adef; 
+	color:#ffffff;
+}
+
+#p_msg{
+	width:100%;
+	text-align:center;
+	color:#ffffff;
+	font-style:italic;
+}
+
+.img_ok{
+	width:30px;
+	height:25px;
+}
+
+.img_no{
+	width:25px;
+	height:25px;
+}
